@@ -1,0 +1,185 @@
+*{
+    box-sizing: border-box;
+    color: #424242;
+    font-family: sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#root{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #ececec;
+    overflow: hidden;
+}
+
+#app-wraper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    height: 95%;
+    min-width: 1035px;
+    min-height: 550px;
+    overflow-y: auto;
+}
+
+#header{
+    width: 80%;
+}
+
+#title{
+    font-weight: 200;
+}
+
+#button {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+#button span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c1c1c1;
+    width: 150px;
+    height: 40px;
+    color: #ececec;
+    cursor: pointer;
+}
+
+#button span:hover{
+    background-color: #757575;
+    transition: .3s;
+}
+
+#app-body{
+    width: 80%;
+    height: 80%;
+}
+
+/* BOOK STYLES */
+#book{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 130px;
+    padding: 10px;
+    margin-bottom: 2px;
+    background-color: #f7f7f7;
+}
+
+#front-img{
+    width: 90px;
+    margin-right: 10px;
+}
+
+#info-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#book-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    font-size: larger;
+}
+
+#author{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+}
+
+#year{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+}
+
+#button-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#edit-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+    border: 1px solid #bbbbbb;
+    color: #bbbbbb;
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#edit-button:hover{
+    background-color: #bbbbbb;
+    transition: .3s;
+    color: #f7f7f7;
+}
+/* ------ */
+
+/* edit menu */
+#edit-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#edit-form div{
+    width: 100%
+}
+
+#input-wrapper{
+    margin: 2px;
+}
+
+#input-wrapper input{
+    outline:none;
+    border: none;
+    height: 40px;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#buttons{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#buttons span{
+    height: 45px;
+    margin-right: 15px;
+}
